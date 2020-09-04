@@ -6,8 +6,15 @@ function App() {
   return (
     <div className="app">
       <div className="app__videos">
-        <Video />
-        <Video />
+        <Video 
+        url=""
+        channel="valentinmuller"
+        description="Yalla Yolo"
+        song="99 problems but REACT Aint ONE"
+        likes={110}
+        messages={465}
+        shares={789}
+        />
       </div>
 
       {/*app container */}
